@@ -6,3 +6,13 @@ nav{
     text-decoration: none;
     color: white;
 }
+.image{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+}
+.DropList{
+    display: block;
+}
