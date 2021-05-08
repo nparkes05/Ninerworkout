@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <!--This contains the javascript files and the style sheet-->
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="workoutPageCss.css">
@@ -7,11 +8,13 @@
         <script src="Workout.JS" defer></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     </head>
+    <!--This is the navigation bar-->
     <nav>
         <a class="header" href="index.html" style="font-size: 40px;">Niner Workout</a>
         <a class="header" href="workoutPage.html" style="padding-left: 20px; font-size: 20px;">Find a Workout</a>
     </nav>
     <body>
+        <!--This is the drop down list for the workout type and the difficulty option-->
         <form id="DropList">
             <label for="Workout">Choose a workout: </label>
             <select name="Workout" id="SelectWorkout">
@@ -27,20 +30,23 @@
             </select>
         </form>
 
+        <!--When the button is press it calls the GetSelectedText function from the javascript file-->
         <button type="button" onclick="GetSelectedText()">Create Workouts</button>
 
-        <h1 id=Selected></h1>
+        <!--An unordered list containing the workout and the amount of rounds-->
         <h1>Workout Plan:</h1>
         <ul>
             <li id="Workout1"></li>
             <li id="Workout2"></li>
             <li id="Workout3"></li>
         </ul>
+
+        <!--This contains the workout name and a picture of the workout-->
         <h3 id="Name1"></h3>
-        <div id="img1" class="image"></div>
+        <img id="img1" class="image"></img>
         <h3 id="Name2"></h3>
-        <div id="img2" class="image"></div>
+        <img id="img2" class="image"></img>
         <h3 id="Name3"></h3>
-        <div id="img3" class="image"></div>
+        <img id="img3" class="image"></img>
     </body>
 </html>

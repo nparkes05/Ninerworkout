@@ -2,71 +2,85 @@ var Workouts = [
     {
         "Workout": "Standard Pushup",
         "Type": "Body",
-        "MuscleGroup": "Chest"
+        "MuscleGroup": "Chest",
+        "image": "pushup.jpg"
     },
     {
         "Workout": "Bench Press",
         "Type": "Gym",
-        "MuscleGroup": "Chest"
+        "MuscleGroup": "Chest",
+        "image": "BenchPress.jpg"
     },
     {
         "Workout": "Body Weight Dips",
         "Type": "Body",
-        "MuscleGroup": "Arm"
+        "MuscleGroup": "Arm",
+        "image": "dips.jpg"
     },
     {
         "Workout": "Body Weight Curls",
         "Type": "Gym",
-        "MuscleGroup": "Arm"
+        "MuscleGroup": "Arm",
+        "image": "BWcurls.jpg"
     },
     {
         "Workout": "Box Jumps",
         "Type": "Body",
-        "MuscleGroup": "Leg"
+        "MuscleGroup": "Leg",
+        "image": "boxJumps.jpg"
     },
     {
         "Workout": "Leg Press",
         "Type": "Gym",
-        "MuscleGroup": "Leg"
+        "MuscleGroup": "Leg",
+        "image": "legPress.jpg"
     },
     {
         "Workout": "Sit-Ups",
         "Type": "Both",
-        "MuscleGroup": "Core"
+        "MuscleGroup": "Core",
+        "image": "situp.jpg"
     },
     {
         "Workout": "Russian Twists",
         "Type": "Both",
-        "MuscleGroup": "Core"
+        "MuscleGroup": "Core",
+        "image": "russianTwist.jpg"
     },
     {
         "Workout": "Pike Push-Ups",
         "Type": "Body",
-        "MuscleGroup": "Shoulder"
+        "MuscleGroup": "Shoulder",
+        "image": "PikePushUp.png"
     },
     {
         "Workout": "Shoulder Press",
         "Type": "Gym",
-        "MuscleGroup": "Shoulder"
+        "MuscleGroup": "Shoulder",
+        "image": "shoulderPress.jpg"
     },
     {
         "Workout": "Lawnmowers",
         "Type": "Body",
-        "MuscleGroup": "Back"
+        "MuscleGroup": "Back",
+        "image": "LawnMower.jpg"
     },
     {
         "Workout": "Pull-Ups",
         "Type": "Gym",
-        "MuscleGroup": "Back"
+        "MuscleGroup": "Back",
+        "image": "pullUps.jpg"
     },
     {
         "Workout": "Child-Pose",
         "Type": "Body",
-        "MuscleGroup": "Stretch"
+        "MuscleGroup": "Stretch",
+        "image": "childPose.jpg"
     },
     {
         "Workout": "Toe-Touches",
         "Type": "Body",
-        "MuscleGroup": "Stretch"
+        "MuscleGroup": "Stretch",
+        "image": "toeTouches.jpg"
     }
 ];
